@@ -1,0 +1,4 @@
+Zdefiniuj prostą tablicę, która będzie zawierała liczby: z cw1. Wypisz tablicę do do konsoli. Odwróć zawartość tablicy i ponownie ją wyświetl.
+
+POMOC:
+Metoda reverse() odwraca zawartość tablicy

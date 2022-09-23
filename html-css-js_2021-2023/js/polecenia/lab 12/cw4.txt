@@ -1,0 +1,6 @@
+Podany tekst: "JavaScript, skryptowy oraz wieloparadygmatowy język programowania, stworzony przez firmę Netscape." podziel na wyrazy, każdy wyraz wyświetl jako osobny element z żółtym tłem.
+
+POMOC:
+Metoda .split() tnie ciąg tekstowy wg. wskazanego znaku,
+np. spacji, następnie zapisuje wycięte elementy do tablicy.
+Patrz przykład4.html

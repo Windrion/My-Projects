@@ -1,0 +1,4 @@
+Usuń ostatni element z tablicy z poprzedniego cwiczenia (cw4). Wypisz do konsoli długość tablicy i jej aktualną zawartość.
+
+POMOC:
+Metoda pop() usuwa element z tablicy ale także zwraca jej długość

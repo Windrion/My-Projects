@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <select id="lista">
+        <option value="Ameryka Pół">Ameryka Pół</option>
+        <option value="Ameryka Poł">Ameryka Poł</option>
+        <option value="Afryka">Afryka</option>
+        <option value="Australia">Australia</option>
+        <option value="Azja">Azja</option>
+        <option value="Europa">Europa</option>
+        <option value="Antarktyda">Antarktyda</option>
+    </select>
+    <div id="gora"></div>
+        
+    <script>
+        let lista = document.getElementById('lista');
+        const gora = document.getElementById('gora');
+        lista.addEventListener('change', function(){
+            if (lista.value == 'Ameryka Pół') {
+            gora.innerHTML = `Denali (6195 m n.p.m.)`;
+        } else if (lista.value == 'Ameryka Poł') {
+            gora.innerHTML = `Aconcagua (6961 m n.p.m.)`;
+        } else if (lista.value == 'Afryka') {
+            gora.innerHTML = `Kilimandżaro (5895 m n.p.m.)`;
+        } else if (lista.value == 'Australia') {
+            gora.innerHTML = `Góra Kościuszki (2230 m n.p.m.)`;
+        } else if (lista.value == 'Azja') {
+            gora.innerHTML = `Mount Everest (8848 m n.p.m.)`;
+        } else if (lista.value == 'Europa') {
+            gora.innerHTML = `Elbrus (5642 m n.p.m.))`;
+        } else if (lista.value == 'Antarktyda') {
+            gora.innerHTML = `Masyw Vinsona (4892 m n.p.m.)`;
+        }
+            console.log(lista.value);
+        });
+        
+    </script>
+</body>
+</html>
+
+
+<!-- Mount Everest (8848 m n.p.m.)
+Aconcagua (6961 m n.p.m.)
+Denali (6195 m n.p.m.)
+Kilimandżaro (5895 m n.p.m.)
+Elbrus (5642 m n.p.m.)
+Góra Kościuszki (2230 m n.p.m.)
+Masyw Vinsona (4892 m n.p.m.) -->

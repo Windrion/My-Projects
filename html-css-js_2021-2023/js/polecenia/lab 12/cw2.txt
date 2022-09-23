@@ -1,0 +1,5 @@
+Na podstawie danej tablicy z cw1 utwórz nową tablicę, która będzie zawierała tylko imiona Twoje i twoich kolegów z klasy.
+
+POMOC:
+Metoda .map() zwraca tablicę w operciu o tablicę wejściową. 
+Patrz przykład2.html

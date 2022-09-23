@@ -1,0 +1,9 @@
+Zdefiniuj funkcje anonimowa dla metody addEventListener(), która po kliknięciu na przycisku na stronie z tekstem 'imie' wyswietli Twoje imie.
+
+POMOC:
+Funkcja anonimowa to funkcja bez nazwy, nie została także przypisana do żadnej nazwy. 
+Występuje najczęściej jako funkcja, którą przekazujemy jako parametr.
+
+Najbardziej powszechna jej użycie wiąże się z metodą addEventListener().
+
+

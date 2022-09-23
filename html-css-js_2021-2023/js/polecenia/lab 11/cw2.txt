@@ -1,0 +1,12 @@
+Zdefiniuj prostą tablicę, która będzie zawierała liczby analogiczne jak w cw1. Wypisz tablicę do div z id="tablica" za pomocą pętli for. Dane rozdziel przecinakami.
+
+POMOC:
+Elementy tablicy określamy za pomocą indeksów 
+np. 1 element tablicy ma index 0
+Tak więc odwołanie do 1 elementu tablicy o nazwie TAB:
+TAB[0]
+
+for ([wyrażenieInicjalizacji]; [warunek]; [wyrażenieInkrementacji])
+{
+    // kod
+}

@@ -1,0 +1,6 @@
+Zdefiniuj prostą tablicę, która będzie zawierała liczby zwiazane z data twoich urodzin oraz cechami osobistymi: dzien, miesiac, rok, wiek, wzrost, szcesliwa liczba,laczna liczba palcow. Wypisz tablicę w konsoli (jako całość).
+
+POMOC:
+deklaracja tablicy> const tablica = [];
+uzupelnianie tablicy znanymi wartosciami> const tablica = [5,12,17,5];
+przegladania tablicy z poziomu konsoli> console.log(tablica);

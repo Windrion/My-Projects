@@ -1,0 +1,10 @@
+Zmodyfikuj funkcje z zadania 3 tak aby została zdefiniowana jako funkcja strzałkowa
+
+POMOC:
+Funkcje strzałkowe (fat arrow) upraszczają zapis, 
+oraz nie zmieniają kontekstu this.
+
+const nazwaFUNKCJI = (argument1,argument2,...) => { 
+instrukcja1;
+instrukcja2;
+}

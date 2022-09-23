@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            border-radius: 10px;
+            background: rgb(233,220,255);
+background: linear-gradient(0deg, rgba(233,220,255,1) 0%, rgba(216,215,255,1) 19%, rgba(194,209,255,1) 47%, rgba(126,165,255,1) 74%, rgba(62,124,255,1) 100%);
+        }
+        div{
+            display: flex;
+            justify-content: center;
+        }
+        table{
+            background: rgb(250,255,225);
+background: linear-gradient(0deg, rgba(250,255,225,1) 0%, rgba(249,255,215,1) 19%, rgba(224,255,223,1) 47%, rgba(210,255,205,1) 74%, rgba(192,255,180,1) 100%);
+            border:blue;
+            color: rgb(32, 32, 32);
+            font-size: 1.25em;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="a"><table border="1"></table></div>
+
+
+    <script>
+        let lol = document.querySelector("table");
+        for (i=0; i<1002; i++){
+            lol.innerHTML += `<tr><td>${i}</td><td>${i*i}</td></tr>`
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="dane"><table border="1">
+        <tr>
+            <td>liczba</td>
+            <td>podnieśiona do potęgi drugiej</td>
+        </tr>
+    </table></div>
+    <script>
+        const table = document.querySelector("table");
+        
+        for (i=0; i<10; i++){
+            table.innerHTML += `<tr><td>${i}</td><td>${i*i}</td></tr>`
+            
+        };
+        
+    </script>
+</body>
+</html>

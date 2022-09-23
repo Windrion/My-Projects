@@ -1,0 +1,11 @@
+Powtórz cw2, ale tym razem zastosuj petle for-of
+
+POMOC:
+Pętla for...of używana jest do iterowania po obiektach iterowalnych jak np. tablice
+
+przyklad:
+const arr = ['a', 'b', 'b'];
+for (const value of arr) {
+  console.log(value); // 'a' 'b' 'c'
+}
+W okrągłych nawiasach deklarujemy zmienną value i wskazujemy obiekt do iteracji. Kolejne wartości znajdują się w zmiennej value.

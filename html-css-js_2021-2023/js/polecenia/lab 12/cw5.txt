@@ -1,0 +1,9 @@
+Dla tablicy z cw1 >  nazwiska osób z tablicy, wyświetl jako nagłówki 3 stopnia, które będą posortowane alfabetycznie.
+
+POMOC:
+W zadaniu tym trzeba odpowiednio połączyć ze sobą poznane metody:
+map()
+substr() > patrz przyklad5a.html
+indexOF() > patrz przyklad5b.html
+sort()
+join()

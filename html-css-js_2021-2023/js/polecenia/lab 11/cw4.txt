@@ -1,0 +1,8 @@
+Zdefiniuj prostą tablicę, która będzie zawierała liczby: z cw1. Wypisz tablicę do do konsoli. Dodaj do tablicy 2 liczby 0 i 1. Zrób to w jednej instrukcji. Wypisz do konsoli długość tablicy i zawartość tablicy.
+
+POMOC:
+Metoda push() dodaje element do tablicy i umieszcza go na końcu tablicy.
+
+np. ponizszy zapis:
+let dane=tablica.push(31);
+spowoduje dodanie na koncu tablicy liczby 31 i przypisuje do zmiennej dane aktualna dlugosc tablicy

@@ -1,0 +1,6 @@
+Napisz skrypt, który będzie powodował, że naciśnięcie przycisku z napisem Zmień tło będzie zmieniało kolor tła na żółty.
+
+POMOC:
+Zmianę właściwości CSS umożliwia właściwość .style.
+Następnie podajemy właściwość CSS, którą chcemy zmienić,
+stosujac tzw. camelCase czyli np. zamiast background-color piszemy backgroundColor.

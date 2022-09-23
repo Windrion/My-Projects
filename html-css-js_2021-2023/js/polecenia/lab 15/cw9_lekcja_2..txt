@@ -1,0 +1,3 @@
+Napisz funkcje, ktora wita uzytkownika tekstem powitalnym wyswietlanym w przegladarce. W zadaniu zastosuj funkcje strzalkowa. 
+
+

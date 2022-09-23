@@ -1,0 +1,16 @@
+Zmodyfikuj funkcje z zadania 3 tak aby została zdefiniowana jako wyrazenie funkcyjne
+
+POMOC:
+Wyrażenie funkcyjne i tradycyjna definicja funkcji różnią się od siebie zapisu i sposobem interpretacji przez przeglądarkę.
+
+Funkcja tradycyjnie zadeklarowana jest od razu dostępna dla całego skryptu - działania tzw. mechanizmu hoistingu (przenosi on taką deklarację na początek kodu).
+             
+Wyrażenie funkcyjne dostępne jest po deklaracji.
+
+PRZYKLAD:
+
+const czesc = function() {
+      console.log('Cześć!');
+}
+
+czesc();

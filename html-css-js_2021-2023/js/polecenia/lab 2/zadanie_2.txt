@@ -1,0 +1,18 @@
+Zapoznaj sie z opisem umieszczonym na stronie wskazanej w zalaczonym skrocie (debuger js)
+
+Korzystając z debugera wykonaj poniższe zadania:
+
+1. Wyjaśnij dlaczego na stronie nie wyświetla się kod zdefiniowany za pomocą instrukcji console.log umieszczony w pliku skrypt_1.html
+>odp. PONIEWAŻ CONSOL.LOG WYŚWIETLA TYLKO W KONSOLI 
+
+2. Co nalezy zrobic aby zobaczyc tekst umieszxczony za pomoca instrukcji console.log
+>odp. wejść w konsolę
+
+3. Korzystajac z debugera zbadaj obiekty window oraz date. Uzyskane wyniki skopiuj i wklej ponizej
+
+date():
+>Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+Sun Jul 24 2022 23:52:11 GMT+0200
+
+4. Korzystajac z debugera odszukaj blad w kodzie js na stronie ERROR.html
+Błąd to pominięta literka w 17 linijce kodu

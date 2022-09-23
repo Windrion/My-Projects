@@ -1,0 +1,5 @@
+Zdefiniuj prostą tablicę, która będzie zawierała imiona Twoje i 4 kolegow z klasy. Posortuj ją i ponownie wyświetl.
+
+POMOC:
+Metoda sort(), sortuje dane. Standardowo JS segreguje tablice alfabetycznie traktując liczby jak litery.
+Użycie tej metody, do wartości liczbowych może przynieść zaskakujące wyniki.

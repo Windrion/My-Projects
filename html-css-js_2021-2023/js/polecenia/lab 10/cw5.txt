@@ -1,0 +1,8 @@
+Utwórz stronę która ma czarne tło i zawiera suwak. Na suwaku można ustawić wartość od 0 do 255, domyślnie 0. Suwak ma umożliwiać zmianę składowej R, koloru tła strony.
+
+POMOC:
+Zmiana ustawionej wartości na suwaku, ma powodować 2 działania:
+1. zmianę składowej R koloru tła i przepisanie aktualnej
+   body.style.backgroundColor='rgb('+red+',0,0)';
+2. przepisanie wartości ustawionej na suwaku do div-a wynik
+   wynik.innerHTML=red;  

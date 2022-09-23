@@ -1,0 +1,5 @@
+Utwórz div-a 250px na 250px z zielonym obramowaniem. Dodaj dwa przyciski Czerwone tło Niebieskie tło, kliknięcie na przycisk ma zmieniać kolor div-a na dany.
+
+POMOC:
+W reakcji na kliknięcie na dany przycisk zmienia się kolor div-a.
+Zapis div.style.backgroundColor='red'; zmienia kolor tła elementu div

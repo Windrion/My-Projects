@@ -1,0 +1,4 @@
+Zdefiniuj prostą tablicę, która będzie zawierała liczby: z cw1. Wypisz tablicę do konsoli. Dodaj na początku tablicy dwie liczby 0 i 1. Wypisz do konsoli długość tablicy i jej bieżącą zawartość.
+
+POMOC:
+Metoda unshift() dodaje element(ty) do tablicy na jej początku, zwraca także jej długość

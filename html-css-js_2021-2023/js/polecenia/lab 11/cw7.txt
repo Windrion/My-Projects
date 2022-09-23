@@ -1,0 +1,4 @@
+Zdefiniuj prostą tablicę, która będzie zawierała liczby: z cw1. Wypisz tablicę do do konsoli. Usuń z tablicy pierwszy element. Wypisz do konsoli długość tablicy i jej bieżącą zawartość.
+
+POMOC:
+Metoda shift() usuwa element z tablicy na jej początku, zwraca także jej długość

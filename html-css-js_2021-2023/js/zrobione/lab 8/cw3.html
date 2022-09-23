@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="liczba1">
+    <input type="text" id="liczba2">
+    <input type="submit" value="Policz" id="klik">
+    <div id="wynik"></div>
+    <script>
+        let przycisk = document.querySelector("#klik");
+        let wynik = document.querySelector("#wynik");
+        let liczba1 = document.querySelector("#liczba1");
+        let liczba2 = document.querySelector("#liczba2");
+        let num1;
+        let num2;
+        przycisk.addEventListener("click", function(){
+            num1 = Number(liczba1.value);
+            num2 = Number(liczba2.value);
+            wynik.innerHTML = `wynik dodawania tych liczb to:${num1 + num2}`;
+        })
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="imie"></div>
+    <div id="liczby"></div>
+
+    
+    <script>
+        let osoba = ["Misha","Aksonov","16","183"];
+        const imie = document.querySelector("#imie");
+        const liczby = document.querySelector("#liczby");
+        imie.innerHTML = `${osoba[0]} ${osoba[1]} `;
+        liczby.innerHTML = `${osoba[2]}lat ${osoba[3]}cm`;
+        imie.style.color = "red";
+        imie.style.fontSize = "1.25em"
+
+    </script>
+</body>
+</html>

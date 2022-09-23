@@ -1,0 +1,6 @@
+Wstaw 3 suwaki odpowiedzialne za 3 składowe koloru RGB, zmiana położenia ma zmieniać daną składową. Wyświetlana ma być aktualnie zmieniana wartość. Wartości początkowe - 255 - kolor biały.
+
+POMOC:
+Zmiana ustawionej wartości na DOWOLNYM suwaku, powinna powodować
+odczytanie aktualnych wartości na WSZYSTKICH suwakach i ustawienie 
+składowych R G B koloru tła zgodnie z tymi odczytami.

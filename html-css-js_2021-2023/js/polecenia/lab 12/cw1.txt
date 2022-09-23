@@ -1,0 +1,7 @@
+Zdefiniuj tablicę, która będzie zawierała imiona i nazwiska Twoje i 4 kolegow z klasy. Na początku tablicy twoje imie i nazwisko.
+
+Wyświetl elementy tablicy na stronie html w jedenj lini rozdzielone przecinakmi. Poniżej wyświetl jej elementy w kolejnych akapitach.
+
+POMOC:
+Do łączenia elementów tablicy w jeden element stosujemy metode
+join(). Jako argument podajemy symbol, znak, znacznik html itp. którym mają być rozdzielone elementy.
