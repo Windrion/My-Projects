@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Lora', serif;
+}
+
+h1,.paper{
+    font-family: 'Handlee';
+    
+}
+
+
+nav{
+    width: 100wh;
+    /* background-color: black; */
+    height:70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+    background: white;
+    position: relative;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.rgb-line {
+    width: 100%;
+    background-image: linear-gradient(to right, brown, yellow);
+    background-size: 200%;
+    background-position-x: left;
+    height: 3px;
+    position: relative;
+    animation: lineAnim 5s linear infinite;
+    opacity: .5;
+    filter: blur(2px);
+}
+
+.rgb-line::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, brown, yellow);
+    background-size: 200%;
+    background-position-x: left;
+    position: absolute;
+    height: 3px;
+    filter: blur(5px);
+    animation: lineAnim 5s linear infinite;
+}
+
+.rgb-line::after{
+    filter: blur(15px);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, brown, yellow);
+    background-size: 200%;
+    background-position-x: left;
+    height: 3px;
+    animation: lineAnim 5s linear infinite;
+}
+
+@keyframes lineAnim {
+    0%,100%{background-position-x: left;}
+    50%{background-position-x: right;}
+}
+
+.bg-top-img {
+    background-image: url('./assets/rzym.jpg');
+    width: 100%;
+    height: 300px;
+    opacity: .25;
+    background-size: 100%;
+    background-position-y: -200px;
+    position: relative;
+}
+
+.bg-top-img::before {
+    content: "";
+    background-image: linear-gradient(transparent, white);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.paper {
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 800px;
+    min-height :300px;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: drop-shadow(3px 3px 20px rgba(0, 0, 0, 0.6));
+    background-image: url('./assets/paper2.png');
+    padding:40px ;
+    text-align: center;
+    font-size: 25px;
+    
+    
+    
+}
+p{
+    font-style: italic;
+}
+img{
+    filter: drop-shadow(16px 16px 10px black);
+}
+#autorzy{
+    margin-top: 40px;
+}
